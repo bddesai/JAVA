@@ -1,0 +1,40 @@
+ <project name="chat" default="compile_all" basedir=".">
+
+<property name="build.compiler" value="modern"/>
+<property name="src" value="src"/>
+<property name="build" value="build"/>
+<property name="classes" value="${build}/classes"/>
+
+
+<target name="all" depends="compile_all"/>
+
+<target name="compile_all"
+depends="chat"/>
+
+<target name="clean">
+<delete dir="${build}"/>
+</target>
+
+<!-- Prepare target directories -->
+<target name="prepare">
+<mkdir dir="${build}"/>
+<mkdir dir="${classes}"/>
+</target>
+
+
+<!-- ** means all subdirectories as well -->
+<!-- * means all files in the current directory -->
+<!-- for just java files use *.java -->
+
+<target name="chat" depends="prepare">
+<javac srcdir="${src}"
+includes="chat/**"
+excludes="**/package.html"
+destdir="${classes}"
+classpath="${classes}"
+debug="on"
+optimize="on"
+deprecation="off"/>
+</target>
+
+</project>

@@ -1,0 +1,110 @@
+CS542 Design Patterns
+Spring 2014
+PROJECT 1 README FILE
+
+Due Date: Sunday, January 23, 2014
+Submission Date: Sunday, January 23, 2014
+Grace Period Used This Project: 0 Days
+Grace Period Remaining: 0 Days
+Author(s): Bhavin D Desai 
+e-mail(s): bdesai1 at binghamton dot edu
+
+
+PURPOSE:
+
+[
+  Document here what you perceive as what your project simply tries to
+  accomplish. If your project has extra functionality, do not document them
+  here, put them in the section titled EXTRA CREDIT below.
+]
+
+PERCENT COMPLETE:
+[
+  I am not sure but I believe I have completed 95% of this project, 
+  since I haven't had time to once go over my code to inspect appropriateness of design principles."
+]
+
+PARTS THAT ARE NOT COMPLETE:
+[
+   I have used proper Java principles to write a displayData() method for resultStore class. 
+   I debugged code and it takes in the data structure values but shows some problem dispalying the data structure fields
+   The same display method I have written for RegistrationStore class and it works perfect.
+   I have no idea why it behaves that way. 
+]
+
+BUGS:
+[
+  "None".
+]
+
+FILES:
+[
+  Included with this project are 5 files:
+
+	dataStore
+	1. studentInfo.java
+ 	2. comparison.java
+	3. fileReader.java
+	4. seachFile.java
+	5. populateWorker.java
+	6. searchWorker.java
+	7. registrationStore.java
+	8. inf_comparison.java
+	9. inf_populateWorker.java
+	10. inf_registrationStore.java
+	11. inf_searchWorker.java
+	
+	driver
+	1. Driver.java
+	
+	util
+	1. logger.java
+	2. resultStore.java
+	3. inf_resultStore.java
+	
+	README, the text file you are presently reading
+]
+
+SAMPLE OUTPUT:
+[
+  // when constructors are called 
+    Inside PopulateWorker constructor
+	Inside RegistrationStore constructor
+	Inside fileReader() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside studentInfo() constructor
+	Inside searchWorker constructor
+	Inside resultStore constructor
+	Inside RegistrationStore constructor
+	Inside RegistrationStore constructor
+	Inside resultStore constructor
+	Inside searchFile() constructor
+	Inside resultStore constructor
+]
+
+TO COMPILE:
+[
+ 	ant compile
+]
+
+TO RUN:
+
+[
+	ant run -Darg0="dataFile.txt" -Darg1=3 -Darg2="searchFile.txt" -Darg3=3 -Darg4=1
+]
+
+
+BIBLIOGRAPHY:
+[
+	tutorialspoint.com
+	roseindia.com
+]

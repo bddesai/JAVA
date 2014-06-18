@@ -1,0 +1,20 @@
+genericCheckPointing.util.EmployeeRecord ii int 0 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 0 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 1 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 1 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 2 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 2 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 3 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 3 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 4 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 4 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 5 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 5 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 6 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 6 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 7 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 7 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 8 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 8 ss short 97 bb boolean false 
+genericCheckPointing.util.EmployeeRecord ii int 9 ff float 2.3 dd double 4.4 ll long 2345 
+genericCheckPointing.util.StudentRecord ii int 9 ss short 97 bb boolean false 
